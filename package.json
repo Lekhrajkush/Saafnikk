@@ -37,4 +37,11 @@
     "tsx": "^4.19.1",
     "typescript": "^5.5.4"
   }
+} "scripts": {
+  "dev": "next dev",
+  "build": "prisma generate && next build",
+  "start": "next start"
 }
+
+
+
